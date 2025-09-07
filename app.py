@@ -10,8 +10,8 @@ def index():
 def index_test():
     return 'Hello Test'
 
-@app.route('/index')
-def index_html():
+@app.route('/flask')
+def index_flask():
     return render_template("index.html")
 
 if __name__=="__main__":
